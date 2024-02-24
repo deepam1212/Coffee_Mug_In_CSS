@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(240, 234, 226);
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.coffeeDetails {
+    background-color: white;
+    height: 325px;
+    width: 500px;
+    border-radius: 21px;
+    display: grid;
+    grid-template-columns: 200px repeat(1, 1fr);
+}
+
+.InsideMug {
+    background-color: white;
+    color: rgb(157, 159, 167);
+    font-size: medium;
+}
+
+.CartButton {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 125, 102);
+    color: white;
+    border-radius: 11px;
+    font-weight: bold;
+    font-size: 11px;
+    border: 0px;
+}
+
+.ImageClass {
+    background-color: rgb(77, 125, 102);
+}
+
+#box1 {
+    background-color: white;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#box2 {
+    background-color: white;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding: 20px;
+}
+
+#HeadingId {
+    color: black;
+    font-size: 31px;
+}
+
+#priceId {
+    color: rgb(86, 118, 107);
+    font-size: 31px;
+
+}
